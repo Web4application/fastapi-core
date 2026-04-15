@@ -1,6 +1,6 @@
-# fastapi-new
+# fastapi-core
 
-Create a new FastAPI project in one command. ✨
+this Creates a new FastAPI project in one command. ✨
 
 <a href="https://github.com/fastapi/fastapi-new/actions?query=workflow%3ATest+event%3Apush+branch%3Amain" target="_blank">
     <img src="https://github.com/fastapi/fastapi-new/actions/workflows/test.yml/badge.svg?event=push&branch=main" alt="Test">
@@ -22,7 +22,7 @@ Install [uv](https://docs.astral.sh/uv/getting-started/installation/) following 
 Run:
 
 ```bash
-uvx fastapi-new awesomeapp
+uvx fastapi-core my-awesomeapp
 ```
 
 This will create a new project `awesomeapp` with a basic FastAPI app, configured with uv.
@@ -30,7 +30,7 @@ This will create a new project `awesomeapp` with a basic FastAPI app, configured
 Enter the directory:
 
 ```bash
-cd awesomeapp
+cd my-awesomeapp
 ```
 
 Run the development server:
@@ -39,14 +39,14 @@ Run the development server:
 uv run fastapi dev
 ```
 
-Open your browser and go to `http://localhost:8000` to see your new FastAPI app running! 🚀
+Open your browser and go to `http://127.0.0.1:8000` to see your new FastAPI app running! 🚀
 
 ### Existing directory
 
 If you want to create a new FastAPI project in an existing directory, run the command without a project name:
 
 ```bash
-uvx fastapi-new
+uvx fastapi-core
 ```
 
 ## License
